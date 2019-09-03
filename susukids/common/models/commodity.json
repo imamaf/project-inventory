@@ -1,0 +1,44 @@
+{
+  "name": "Commodity",
+  "plural": "Commodity",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "nameCategory": {
+      "type": "string",
+      "required": true
+    },
+    "Category": {
+      "type": "string"
+    },
+    "Price": {
+      "type": "number"
+    },
+    "Stock": {
+      "type": "number"
+    },
+    "Merk": {
+      "type": "string"
+    },
+    "imageProduct": {
+      "type": "string"
+    },
+    "Deskripsi": {
+      "type": "string"
+    },
+    "Berat": {
+      "type": "string"
+    },
+    "createdAt": {
+      "type": "date",
+      "defaultFn": "now"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
